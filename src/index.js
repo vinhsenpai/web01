@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './component/Navbar';
+import SlideShow from './component/SlideShow';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <SlideShow />
+    <Navbar />
     <App />
   </React.StrictMode>
 );
