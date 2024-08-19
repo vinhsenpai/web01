@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './component/Navbar';
-import SlideShow from './component/SlideShow';
+import Aboutus from './component/Aboutus';
+import { initializeApp } from 'firebase/app';
+import { getAuth } from "firebase/auth";
 
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SlideShow />
-    <Navbar />
-    <App />
+    <Aboutus />
   </React.StrictMode>
 );
 
