@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Aboutus from './component/Aboutus';
+import Navbar from './component/Navbar.js';
+import Background from './component/Background.js';
+import Approach from './component/Approach.js';
+import Member from './component/Member.js';
 import { initializeApp } from 'firebase/app';
 import { getAuth } from "firebase/auth";
-
 const firebaseConfig = {
   //...
 };
@@ -14,7 +16,10 @@ const app = initializeApp(firebaseConfig)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Aboutus />
+    <Navbar />
+    <Background />
+    <Approach />
+    <Member />
   </React.StrictMode>
 );
 

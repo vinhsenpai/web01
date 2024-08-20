@@ -1,11 +1,11 @@
-import './Aboutus.css'
+import './Navbar.css'
 
-function Aboutus(){
+function Navbar() {
     return (
         <div className='Navbar'>
             <div className='logo'>
                 <span className='firstlogo'>Viet</span>
-                <span className='secondlogo'>Dests</span>   
+                <span className='secondlogo'>Dests</span>
             </div>
             <div className='button_space'>
                 <p className='button'>HOME</p>
@@ -13,12 +13,11 @@ function Aboutus(){
                 <p className='button'>ALL TOURS</p>
                 <div className='log_re'>
                     <p>LOGIN</p>
-                    <p>&#124;</p>
+                    <p className='line'>&#124;</p>
                     <p>REGISTER</p>
                 </div>
-                
             </div>
         </div>
     );
 }
-export default Aboutus
+export default Navbar
