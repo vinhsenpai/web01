@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('../../Font/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Regular.ttf') format('truetype');
+}
+
+
+.logo {
+    font-family: "Oleo Script Swash Caps", cursive;
+    font-size: 2.5rem;
+    /* Adjust the size as needed */
+    position: absolute;
+    top: 20px;
+    /* Position it at the top */
+    left: 20px;
+    /* Position it to the left */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add a slight shadow for effect */
+}
+
+.logo .dest {
+    color: #00ca18;
+    /* Change color of 'Dest' to green */
+}
+
+.logo .destt {
+    color: #1CCBBC;
+}
+
+.register .container {
+    box-shadow: 0px 4px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px;
+    /* Reduced max-width for a smaller container */
+    margin: 0 auto;
+}
+
+.register .container-6,
+.register .container-2 {
+    flex: 1;
+}
+
+.register .container-6 {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0 0 20px;
+    background: #FFFFFF;
+    padding: 40px 40px 20px 40px;
+    /* Adjusted padding for a more compact layout */
+    box-sizing: border-box;
+}
+
+.register .container-2 {
+    box-shadow: 0px 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0 20px 20px 0;
+    background: url('./rectangle_63.jpeg') 50% / cover no-repeat;
+    padding: 280px 0 170px 0;
+    /* Adjusted padding for a smaller size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.register .our-destination-is-not-aplace-but-anew-way-of-seeing-henry-miller {
+    overflow-wrap: break-word;
+    font-family: 'Oleo Script Swash Caps';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.016;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+/* Form Styles */
+.register .container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register .firstname,
+.register .lastname,
+.register .email,
+.register .password,
+.register .confirm-password {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2;
+    color: #4E5251;
+}
+
+.register .rectangle-57,
+.register .rectangle-58,
+.register .rectangle-59,
+.register .rectangle-60,
+.register .rectangle-61 {
+    border-radius: 8px;
+    border: 1px solid #999999;
+    background: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.register .container-3 {
+    border-radius: 8px;
+    background: #000000;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.register .create-account {
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.667;
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.register .already-have-an-account,
+.register .another-method {
+    overflow-wrap: break-word;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2.5;
+    color: #999999;
+    text-align: center;
+}
+
+.register .container-5 {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.register .ellipse-10,
+.register .ellipse-11,
+.register .ellipse-12 {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.create-new-account-title {
+    font-family: 'Abhaya Libre ExtraBold', 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 2.5rem;
+    /* Adjust the size to make it larger */
+    line-height: 1.2;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.vietdests-title {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 3rem;
+    /* Adjust the size as needed */
+    color: #1CCBBC;
+    /* Use your preferred color */
+    text-align: center;
+    margin-top: 50px;
+    /* Optional: Add some space from the top */
+}
+
+.container-2 {
+    font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons svg {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.5s;
+}
+
+.social-icons svg:hover {
+    color: #007bff;
+    /* Màu khi hover, bạn có thể tùy chỉnh */
+}
+
+@media (max-width: 768px) {
+    .register .container {
+        flex-direction: column;
+    }
+
+    .register .container-6 {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .register .container-2 {
+        border-radius: 0 0 20px 20px;
+        padding: 20px;
+    }
+
+    .register .quote-box {
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    .register .container-2,
+    .register .container-6 {
+        flex: none;
+    }
+}
+
+.register .firstname {
+    font-weight: bold;
+}
+
+.register .lastname {
+    font-weight: bold;
+}
+
+.register .email {
+    font-weight: bold;
+}
+
+.register .password {
+    font-weight: bold;
+}
+
+.register .confirm-password {
+    font-weight: bold;
+}
