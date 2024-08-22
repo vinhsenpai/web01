@@ -7,15 +7,17 @@ import Navbar from "./component/Navbar";
 import SlideShow from "./component/SlideShow";
 import Signup from "./component/pages/signup/Signup";
 import Login from "./component/pages/signup/login";
+import City from "./component/pages/citypage/City";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    {/* <SlideShow/>
-    <Navbar/> */}
+    <City />
+
     {/* <Signup /> */}
-    <Login />
+
+    {/* <Login /> */}
   </BrowserRouter>
 );
 
